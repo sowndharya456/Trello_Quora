@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.upgrad.quora.api.controller.CommonControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.187 s <<< FAILURE! - in com.upgrad.quora.api.controller.CommonControllerTest
+detailsOfNonExistingUser(com.upgrad.quora.api.controller.CommonControllerTest)  Time elapsed: 0.163 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.NullPointerException
+	at com.upgrad.quora.api.controller.CommonControllerTest.detailsOfNonExistingUser(CommonControllerTest.java:42)
+Caused by: java.lang.NullPointerException
+	at com.upgrad.quora.api.controller.CommonControllerTest.detailsOfNonExistingUser(CommonControllerTest.java:42)
+
